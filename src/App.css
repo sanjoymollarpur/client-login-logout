@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.body{
+  font-size: 62.5px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo-img{
+  width: 1.3rem;
+}
+.footer{
+  text-align: center;
+  margin-top: 100%;
+  color: aliceblue;
+}
+.reg-form{
+  width: 30%;
+  margin: 50px auto;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  background-color: rgb(233, 231, 229);
+  border-radius: 15px;
+}
+.reg-form h1{
+  font-size: 1.4rem;
+}
+.box-contact{
+  background-color: rgb(230, 212, 212);
+  margin: 4px auto;
+  border-radius: 16px;
+  
+  
+}
+.home-text{
+  color: rgb(153, 118, 187);
+  width: 40%;
+  margin:200px auto;
+  font-size: 1.2rem;
+}
+.about-con{
+  width: 30%;
+  margin: 10px auto;
+  background-color: rgb(233, 231, 229);
+}
+@media screen  and (max-width:786px){
+  .reg-form{
+    width: 100%;
+  }
+  .about-con{
+    width: 100%;
+  }
+}
